@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "userName": "abc@naukri.com",
+      "userId": 1234,
+      "hierarchy": [
+        {
+          "userName": "bcd@naukri.com",
+          "userId": 999,
+          "hierarchy": [
+            {
+              "userName": "cde@naukri.com",
+              "userId": 123
+            },
+            {
+              "userName": "def@naukri.com",
+              "userId": 222
+            }
+          ]
+        },
+        {
+          "userName": "efg@naukri.com",
+          "userId": 444
+        }
+      ]
+    },
+    {
+      "userName": "fgh@naukri.com",
+      "userId": 555,
+      "hierarchy": [
+        {
+          "userName": "ghi@naukri.com",
+          "userId": 1001,
+          "hierarchy": [
+            {
+              "userName": "hij@naukri.com",
+              "userId": 666
+            },
+            {
+              "userName": "ijk@naukri.com",
+              "userId": 777
+            }
+          ]
+        },
+        {
+          "userName": "jkl@naukri.com",
+          "userId": 888
+        }
+      ]
+    }
+  ]
+}
